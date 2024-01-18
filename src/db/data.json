@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "bankAccounts": [
+    {
+      "bankName": "First National Bank",
+      "account": "1234-5678-9012",
+      "currentBalance": 4500.75
+    },
+    {
+      "bankName": "Savings Credit Union",
+      "account": "9876-5432-1098",
+      "currentBalance": 25000.45
+    },
+    {
+      "bankName": "Investment Bank",
+      "account": "5678-1234-9012",
+      "currentBalance": 75000.15
+    }
+  ],
+  "creditCards": [
+    {
+      "cardName": "Platinum Rewards Card",
+      "creditLimit": 15000,
+      "currentBalance": 1200.35,
+      "interestRate": 15.9,
+      "minimumPayment": 50,
+      "paymentDate": "2022-03-10"
+    },
+    {
+      "cardName": "Silver Rewards Card",
+      "creditLimit": 3000,
+      "currentBalance": 1200.35,
+      "interestRate": 15.9,
+      "minimumPayment": 50,
+      "paymentDate": "2022-03-10"
+    }
+  ]
+}
