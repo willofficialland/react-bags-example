@@ -1,0 +1,11 @@
+@media (max-width: 48em) {
+  .chart-box {
+    grid-column: span 2 / span 1 !important;
+  }
+  .chart-box:first-child {
+    margin-bottom: 25px;
+  }
+  .css-kml1m2 {
+    padding-bottom: 10%;
+  }
+}

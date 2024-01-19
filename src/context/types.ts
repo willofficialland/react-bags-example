@@ -19,7 +19,35 @@ export type CreditCard = {
 };
 
 export type BankAccount = {
-    bankName: string;
-    account: string;
-    currentBalance: number;
+  bankName: string;
+  account: string;
+  currentBalance: number;
+};
+
+export type Contact = {
+  id: number;
+  name: string;
+  username: string;
+  email: string;
+  address: Address;
+  phone: string;
+  website: string;
+  company: Company;
+};
+
+export type Address = {
+  street: string;
+  suite: string;
+  city: string;
+  zipcode: string;
+  geo: {
+    lat: string,
+    lng: string,
   };
+};
+
+export type Company = {
+  name: string;
+  catchPhrase: string;
+  bs: string;
+};

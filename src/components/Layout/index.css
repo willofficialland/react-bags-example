@@ -1,0 +1,10 @@
+@media (max-width: 48em) {
+  .sidebar-container {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .main-content-layout {
+    padding-bottom: 10%;
+  }
+}
